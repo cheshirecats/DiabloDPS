@@ -175,15 +175,15 @@ window.onload = function(){
   var $dom = ['#xxx td:eq(6)', '#xxx td:eq(8)', '#xxx td:eq(9)', '#xxx td:eq(10)', '#xxx td:eq(11)',
   '#vvv td:eq(6)', '#vvv td:eq(7)', '#vvv td:eq(8)', '#vvv td:eq(9)', '#vvv td:eq(10)', '#vvv td:eq(11)',
   '#class td:eq(0)', '#class td:eq(1)', '#class td:eq(2)', '#class td:eq(3)', '#class td:eq(4)',
-  '#t1', '#t2', '#func a:eq(0)', '#func a:eq(1)', '#func a:eq(2)', '#func a:eq(3)', '#tt'];
+  '#t1', '#t2', '#func a:eq(0)', '#func a:eq(1)', '#func a:eq(2)', '#func a:eq(3)', '#func a:eq(4)', '#tt'];
   var $lant = [
   ['WDPS', 'IAS%', 'Crit%', 'CDmg%', 'DPS', 'HP', 'VIT', 'Res', 'Armor', 'Life+%', 'EHP',
   'Barb','DH','Monk','WD','Wiz',
-  'Power', 'Act-4-Readiness', 'New', 'Default', 'Evaluate', 'GitHub', 'Discuss', 
+  'Power', 'Act-4-Readiness', 'New', 'Default', 'Evaluate', 'GitHub', '', 
   'DiabloDPS.com v20120714. Bookmark to save your values.'],
   ['武器', '攻速%', '爆率%', '爆傷%', '傷害', '生命', '體能', '抗性', '護甲', '命增%', '真命',
   '野蠻人','狩魔','武僧','巫醫','法師',
-  '戰力', '煉獄 A4 檢定', '新建', '預設', '檢定', 'GitHub', '討論',
+  '戰力', '煉獄 A4 檢定', '新建', '預設', '檢定', 'GitHub', '',
   'DiabloDPS.com v20120714. 加入書籤可保存所有數值。'
   ]];
   var $lanx = [
