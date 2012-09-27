@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>DiabloDPS.com</title>
-<meta name="description" content="DiabloDPS.com : Gear evaluation, EHP computation, and more. 裝備檢定，有效生命計算。">
+<meta name="description" content="DiabloDPS.com : Gear evaluation, EHP computation, and more. 暗黑破坏神3裝備檢定，有效生命計算。">
 <style>
 * { margin: 0; padding: 0; border: 0; vertical-align:baseline; cursor: default; }
 html { background: #000;}
@@ -78,7 +78,7 @@ select { background: #dc8; border: 1px solid black;}
       <a href="javascript:void(0)" id="default" style="margin-left:24px" tabindex="-1"></a>
       <a href="javascript:void(0)" id="go" style="margin-left:24px" tabindex="-1"></a>
 			<a href="https://github.com/cheshirecats/DiabloDPS" id="github" target="_blank" style="margin-left:24px" tabindex="-1"></a>
-      <a href="https://us.battle.net/d3/en/forum/topic/5978429454" id="feedback" target="_blank" style="margin-left:24px" tabindex="-1"></a>
+      <a href="http://pivory.com/#topic/1693" id="feedback" target="_blank" style="margin-left:24px" tabindex="-1"></a>
     </div>
     <div class="empty"></div>
     <div id="info">
@@ -179,11 +179,11 @@ window.onload = function(){
   var $lant = [
   ['WDPS', 'IAS%', 'Crit%', 'CDmg%', 'DPS', 'HP', 'VIT', 'Res', 'Armor', 'Life+%', 'EHP',
   'Barb','DH','Monk','WD','Wiz',
-  'Power', 'Act-4-Readiness', 'New', 'Default', 'Evaluate', 'GitHub', '', 
+  'Power', 'Act-4-Readiness', 'New', 'Default', 'Evaluate', 'GitHub', 'Discuss', 
   'DiabloDPS.com v20120714. Bookmark to save your values.'],
   ['武器', '攻速%', '爆率%', '爆傷%', '傷害', '生命', '體能', '抗性', '護甲', '命增%', '真命',
   '野蠻人','狩魔','武僧','巫醫','法師',
-  '戰力', '煉獄 A4 檢定', '新建', '預設', '檢定', 'GitHub', '',
+  '戰力', '煉獄 A4 檢定', '新建', '預設', '檢定', 'GitHub', 'Discuss',
   'DiabloDPS.com v20120714. 加入書籤可保存所有數值。'
   ]];
   var $lanx = [
@@ -407,10 +407,6 @@ window.onload = function(){
     }
     if ($class == 1) $('#remark').text($lanx[$lang][3]); else $('#remark').html('Scroll down page for more functions.');
     //$('#remark').text($lanx[$lang][3]);
-    if ($lang != 1)
-      $("#feedback").attr("href", "https://us.battle.net/d3/en/forum/topic/5978429454")
-    else
-      $("#feedback").attr("href", "https://tw.battle.net/d3/zh/forum/topic/1045514573")
   }
   
   $('#lang td').click(function(e){
